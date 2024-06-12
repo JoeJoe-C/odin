@@ -1,0 +1,21 @@
+.card {
+	background-color: skyblue;
+	padding: 8px;
+	text-align: center;
+}
+
+.title {
+	background-color: white;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.recipeCard {
+	margin: 8px auto;
+	border-bottom: 3px navy;
+	border-style: none none solid none;
+}
+
+.recipe {
+	color: red;
+}
