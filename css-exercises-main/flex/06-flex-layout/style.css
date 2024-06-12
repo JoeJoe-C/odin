@@ -1,26 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 img {
-  width: 600px;
+	width: 600px;
 }
 
 button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
+	font-family: Roboto, sans-serif;
+	border: none;
+	border-radius: 8px;
+	background: #eee;
 }
 
 input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
+	border: 1px solid #ddd;
+	border-radius: 16px;
+	padding: 8px 24px;
+	width: 400px;
+}
+
+/* added css here */
+
+button {
+	padding: 8px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+div>ul>li {
+	list-style-type: none;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px;
+	margin: 0;
+	flex-shrink: 0;
+}
+
+.footer {
+	background-color: #eeeeee;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px;
+	margin: 0;
+	flex-shrink: 0;
+}
+
+.left-links {
+	display: flex;
+	gap: 16px;
+}
+
+.right-links {
+	display: flex;
+	gap: 16px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
 }
