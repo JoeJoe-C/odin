@@ -67,7 +67,7 @@ button.hero-button {
 	border-style: none;
 	border-radius: 5px;
 	align-self: flex-start;
-	padding: 4px 8px;
+	padding: 8px 16px;
 }
 
 .hero-right {
@@ -93,6 +93,7 @@ button.hero-button {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 	gap: 5%;
 }
 
@@ -124,5 +125,68 @@ p.card-text {
 .quote-container {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	background-color: #e5e7eb;
 }
+
+p.quote {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+}
+
+.quoter {
+	align-self: flex-end;
+	font-weight: 900;
+}
+
+/* banner */
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-container {
+	background-color: #3882f6;
+	display: flex;
+	align-items: center;
+	flex: 1;
+	gap: 16px;
+}
+
+.banner-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.banner-button {
+	background-color: #3882f6;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 8px 16px;
+}
+
+h1 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+/* footer */
+
+.footer {
+	background-color: #1f2937;
+	color: #e5e7eb;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+/* all */
