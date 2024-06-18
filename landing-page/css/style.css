@@ -47,9 +47,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 50%;
+	flex: 1;
 }
 
 h1.hero-header {
@@ -76,9 +74,55 @@ button.hero-button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 50%;
 	color: #f9faf8;
 	background-color: grey;
+	flex: 1;
+}
+
+/* image gallery */
+
+.img-gallery-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.body-img-gallery {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 5%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+	flex: 0 0 20%;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	border-style: solid;
+	border-color: #3882f6;
+	border-radius: 5px;
+	flex-basis: 75%;
+	flex-grow: 3;
+}
+
+p.card-text {
+	margin: 0;
+	text-align: center;
+}
+
+/* quote */
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	background-color: #e5e7eb;
 }
