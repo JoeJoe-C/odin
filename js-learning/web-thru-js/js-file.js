@@ -8,15 +8,17 @@ const paraInDiv = document.createElement("p")
 
 //insert content
 redParagraph.textContent = "Hey I'm red!"
-redParagraph.style.backgroundColor = "red"
+redParagraph.style.color = "red"
 blueLargeHeader.textContent = "I'm a blue h3!"
-blueLargeHeader.
+blueLargeHeader.style.color = "blue"
+divSection.style.borderColor = "black"
+divSection.style.backgroundColor = "pink"
+headerInDiv.textContent = "I'm in a div"
+paraInDiv.textContent = "ME TOO!"
 
 
 //add stuff to div section
-divSection.appendChild(headerInDiv, paraInDiv)
+divSection.append(headerInDiv, paraInDiv)
 //add to dom
-body.appendChild(redParagraph)
-body.appendChild(blueLargeHeader)
-body.appendChild(divSection)
+body.append(redParagraph, blueLargeHeader, divSection)
 
