@@ -1,0 +1,34 @@
+ * {
+    margin: 0px;
+    padding: 9px;
+ }
+
+.rnp-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rnp-buttons {
+    background-color:burlywood;
+    border-radius: 15%;
+    border-color:blanchedalmond;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chosen {
+    background-color:cornflowerblue
+}
+
+.round-winner {
+    background-color:coral;
+}
+
+.stats {
+    background-color:cadetblue
+}

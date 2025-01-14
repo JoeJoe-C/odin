@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./rps.js" defer></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Let's play Rock Paper Scissors!</h1>
+    <div class="rnp-section">
+        <button class="rnp-buttons" id="rock-btn">Rock</button>
+        <button class="rnp-buttons" id="paper-btn">Paper</button>
+        <button class="rnp-buttons" id="scissors-btn">Scissors</button>
+    </div>
+    <div class="chosen container">
+        <h2>Player Chose:</h2>
+        <h2 id="player-choice"></h2>
+    </div>
+    <div class="chosen container">
+        <h2>Computer Chose:</h2>
+        <h2 id="comp-choice"></h2>
+    </div>
+    <div class="round-winner container">
+        <h2>Winner is:</h2>
+        <h2 id="round-winner"></h2>
+    </div>
+    <div class="stats">
+        <h1>Game Stats</h1>
+        <div class="container">
+            <h2>Computer Won:</h2>
+            <h2 id="comp-wins"></h2>
+        </div>
+        <div class="container">
+            <h2>Player Won:</h2>
+            <h2 id="player-wins"></h2>
+        </div>
+        <div class="container">
+            <h2>Games Played Won:</h2>
+            <h2 id="games-played"></h2>
+        </div>
+    </div>
+</body>
+</html>
